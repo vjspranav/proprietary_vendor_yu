@@ -93,11 +93,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/sambar/proprietary/lib/modules/core_ctl.ko:system/lib/modules/core_ctl.ko \
     vendor/yu/sambar/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/yu/sambar/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/yu/sambar/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
-    vendor/yu/sambar/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
-    vendor/yu/sambar/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
-    vendor/yu/sambar/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
-    vendor/yu/sambar/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
     vendor/yu/sambar/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
     vendor/yu/sambar/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
     vendor/yu/sambar/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
@@ -106,13 +101,9 @@ PRODUCT_COPY_FILES += \
     vendor/yu/sambar/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/yu/sambar/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
     vendor/yu/sambar/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
-    vendor/yu/sambar/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
     vendor/yu/sambar/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
     vendor/yu/sambar/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/yu/sambar/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
-    vendor/yu/sambar/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
-    vendor/yu/sambar/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
-    vendor/yu/sambar/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/yu/sambar/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/yu/sambar/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
     vendor/yu/sambar/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
@@ -129,16 +120,12 @@ PRODUCT_COPY_FILES += \
     vendor/yu/sambar/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/yu/sambar/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/yu/sambar/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
-    vendor/yu/sambar/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/yu/sambar/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/yu/sambar/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
-    vendor/yu/sambar/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
-    vendor/yu/sambar/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/yu/sambar/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/yu/sambar/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
     vendor/yu/sambar/proprietary/vendor/lib64/libmm-abl.so:system/vendor/lib64/libmm-abl.so \
     vendor/yu/sambar/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
-    vendor/yu/sambar/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/yu/sambar/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/yu/sambar/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
     vendor/yu/sambar/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
@@ -157,10 +144,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/sambar/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     vendor/yu/sambar/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
     vendor/yu/sambar/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
-    vendor/yu/sambar/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
-    vendor/yu/sambar/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
-    vendor/yu/sambar/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
-    vendor/yu/sambar/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
     vendor/yu/sambar/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/yu/sambar/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/yu/sambar/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
@@ -171,11 +154,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/sambar/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/yu/sambar/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/yu/sambar/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
-    vendor/yu/sambar/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
-    vendor/yu/sambar/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
-    vendor/yu/sambar/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/yu/sambar/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-    vendor/yu/sambar/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/yu/sambar/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/yu/sambar/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/yu/sambar/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
@@ -187,13 +165,9 @@ PRODUCT_COPY_FILES += \
     vendor/yu/sambar/proprietary/vendor/lib/libactuator_lc898122_axa_camera.so:system/vendor/lib/libactuator_lc898122_axa_camera.so \
     vendor/yu/sambar/proprietary/vendor/lib/libactuator_lc898122_axa.so:system/vendor/lib/libactuator_lc898122_axa.so \
     vendor/yu/sambar/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
-    vendor/yu/sambar/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/yu/sambar/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/yu/sambar/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/yu/sambar/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/yu/sambar/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
-    vendor/yu/sambar/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
-    vendor/yu/sambar/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/yu/sambar/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/yu/sambar/proprietary/vendor/lib/libchromatix_imx230_common.so:system/vendor/lib/libchromatix_imx230_common.so \
     vendor/yu/sambar/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx230_cpp_hfr_120.so \
@@ -254,15 +228,12 @@ PRODUCT_COPY_FILES += \
     vendor/yu/sambar/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/yu/sambar/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/yu/sambar/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-    vendor/yu/sambar/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/yu/sambar/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/yu/sambar/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/yu/sambar/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/yu/sambar/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/yu/sambar/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/yu/sambar/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/yu/sambar/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
-    vendor/yu/sambar/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/yu/sambar/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/yu/sambar/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/yu/sambar/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
@@ -346,7 +317,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/sambar/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/yu/sambar/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/yu/sambar/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/yu/sambar/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/yu/sambar/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/yu/sambar/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/yu/sambar/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
@@ -371,10 +341,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/sambar/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/yu/sambar/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/yu/sambar/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/yu/sambar/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-    vendor/yu/sambar/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-    vendor/yu/sambar/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/yu/sambar/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/yu/sambar/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/yu/sambar/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/yu/sambar/proprietary/vendor/lib/libSonyIMX230PdafLibrary.so:system/vendor/lib/libSonyIMX230PdafLibrary.so \
@@ -397,7 +363,6 @@ PRODUCT_PACKAGES += \
     libdsutils \
     libidl \
     libmdmdetect \
-    libmm-disp-apis \
     libqcci_legacy \
     libqmi_cci \
     libqmi_client_qmux \
@@ -412,3 +377,5 @@ PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook
 endif
+
+$(call inherit-product, vendor/qcom/binaries/msm8994/graphics/graphics-vendor.mk)
