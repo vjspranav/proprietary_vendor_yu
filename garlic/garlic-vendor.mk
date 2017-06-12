@@ -1,3 +1,4 @@
+# Copyright (C) 2016 The CyanogenMod Project
 # Copyright (C) 2017 YU Community OS Team
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -193,6 +194,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/yu/garlic/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/yu/garlic/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
+    vendor/yu/garlic/proprietary/lib/hw/sensors.msm8937.so:system/lib/hw/sensors.msm8937.so \
     vendor/yu/garlic/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/yu/garlic/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
     vendor/yu/garlic/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
@@ -221,6 +223,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/yu/garlic/proprietary/lib64/hw/fingerprint.elan.default.so:system/lib64/hw/fingerprint.elan.default.so \
     vendor/yu/garlic/proprietary/lib64/hw/fingerprint.goodix.default.so:system/lib64/hw/fingerprint.goodix.default.so \
+    vendor/yu/garlic/proprietary/lib64/hw/sensors.msm8937.so:system/lib64/hw/sensors.msm8937.so \
     vendor/yu/garlic/proprietary/lib64/libOmxSwVdec.so:system/lib64/libOmxSwVdec.so \
     vendor/yu/garlic/proprietary/lib64/libOmxSwVencMpeg4.so:system/lib64/libOmxSwVencMpeg4.so \
     vendor/yu/garlic/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
