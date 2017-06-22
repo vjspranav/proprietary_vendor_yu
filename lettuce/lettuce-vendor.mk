@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
+    vendor/yu/lettuce/proprietary/app/QtiTelephonyService/QtiTelephonyService.apk:system/app/QtiTelephonyService/QtiTelephonyService.apk \
     vendor/yu/lettuce/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/yu/lettuce/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/yu/lettuce/proprietary/bin/cnd:system/bin/cnd \
@@ -67,8 +68,11 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/yu/lettuce/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/yu/lettuce/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/yu/lettuce/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/yu/lettuce/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/yu/lettuce/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/yu/lettuce/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
+    vendor/yu/lettuce/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/yu/lettuce/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/yu/lettuce/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/yu/lettuce/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
@@ -76,7 +80,9 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/yu/lettuce/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/yu/lettuce/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/yu/lettuce/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/yu/lettuce/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
+    vendor/yu/lettuce/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/yu/lettuce/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/yu/lettuce/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/yu/lettuce/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
@@ -375,6 +381,7 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
     colorservice \
+    fastdormancy \
     shutdownlistener \
     CNEService \
     com.qualcomm.location \
