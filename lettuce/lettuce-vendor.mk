@@ -59,6 +59,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/yu/lettuce/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/yu/lettuce/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
+    vendor/yu/lettuce/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/yu/lettuce/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/yu/lettuce/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/yu/lettuce/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
@@ -71,6 +72,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/yu/lettuce/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/yu/lettuce/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
+    vendor/yu/lettuce/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/yu/lettuce/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/yu/lettuce/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/yu/lettuce/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
@@ -363,6 +365,7 @@ PRODUCT_PACKAGES += \
     libwpa_qmi_eap_proxy \
     libtime_genoff \
     TimeService \
+    colorservice \
     shutdownlistener \
     CNEService \
     com.qualcomm.location \
