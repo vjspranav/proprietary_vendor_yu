@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/yu/garlic/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/yu/garlic/proprietary/bin/dpmd:system/bin/dpmd \
+    vendor/yu/garlic/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/yu/garlic/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/yu/garlic/proprietary/bin/fstman:system/bin/fstman \
     vendor/yu/garlic/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
