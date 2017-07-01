@@ -207,8 +207,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib/libdashplayer.so:system/lib/libdashplayer.so \
     vendor/yu/garlic/proprietary/lib/libextmedia_jni.so:system/lib/libextmedia_jni.so \
     vendor/yu/garlic/proprietary/lib/libgettotalsizecnfg.so:system/lib/libgettotalsizecnfg.so \
-    vendor/yu/garlic/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
-    vendor/yu/garlic/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/yu/garlic/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/yu/garlic/proprietary/lib/libomadrmutils_jni.so:system/lib/libomadrmutils_jni.so \
     vendor/yu/garlic/proprietary/lib/libpdmapper.so:system/lib/libpdmapper.so \
@@ -273,25 +271,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/hw/gatekeeper.msm8937.so:system/vendor/lib/hw/gatekeeper.msm8937.so \
     vendor/yu/garlic/proprietary/vendor/lib/hw/keystore.msm8937.so:system/vendor/lib/hw/keystore.msm8937.so \
     vendor/yu/garlic/proprietary/vendor/lib/hw/sound_trigger.primary.msm8937.so:system/vendor/lib/hw/sound_trigger.primary.msm8937.so \
-    vendor/yu/garlic/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
-    vendor/yu/garlic/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
-    vendor/yu/garlic/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
-    vendor/yu/garlic/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
-    vendor/yu/garlic/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
-    vendor/yu/garlic/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
-    vendor/yu/garlic/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
-    vendor/yu/garlic/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
-    vendor/yu/garlic/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
-    vendor/yu/garlic/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
-    vendor/yu/garlic/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
-    vendor/yu/garlic/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
-    vendor/yu/garlic/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
-    vendor/yu/garlic/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
-    vendor/yu/garlic/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
-    vendor/yu/garlic/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
-    vendor/yu/garlic/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
-    vendor/yu/garlic/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
-    vendor/yu/garlic/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
     vendor/yu/garlic/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/yu/garlic/proprietary/vendor/lib/libAlacSwDec.so:system/vendor/lib/libAlacSwDec.so \
     vendor/yu/garlic/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
@@ -665,8 +644,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/yu/garlic/proprietary/vendor/lib/libqti-wl.so:system/vendor/lib/libqti-wl.so \
     vendor/yu/garlic/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/yu/garlic/proprietary/vendor/lib/librcc.so:system/vendor/lib/librcc.so \
-    vendor/yu/garlic/proprietary/vendor/lib/librcs_jni.so:system/vendor/lib/librcs_jni.so \
     vendor/yu/garlic/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/yu/garlic/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/yu/garlic/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
@@ -713,7 +690,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/yu/garlic/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/yu/garlic/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/yu/garlic/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
     vendor/yu/garlic/proprietary/vendor/lib/libwfdavenhancements.so:system/vendor/lib/libwfdavenhancements.so \
     vendor/yu/garlic/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
