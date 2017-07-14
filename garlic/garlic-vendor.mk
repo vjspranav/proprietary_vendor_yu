@@ -218,8 +218,8 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/yu/garlic/proprietary/lib/libregionalization.so:system/lib/libregionalization.so \
     vendor/yu/garlic/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/yu/garlic/proprietary/lib64/hw/fingerprint.elan.so:system/lib64/hw/fingerprint.elan.so \
-    vendor/yu/garlic/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
+    vendor/yu/garlic/proprietary/lib64/hw/fingerprint.elan.default.so:system/lib64/hw/fingerprint.elan.default.so \
+    vendor/yu/garlic/proprietary/lib64/hw/fingerprint.goodix.default.so:system/lib64/hw/fingerprint.goodix.default.so \
     vendor/yu/garlic/proprietary/lib64/hw/sensors.msm8937.so:system/lib64/hw/sensors.msm8937.so \
     vendor/yu/garlic/proprietary/lib64/libOmxSwVdec.so:system/lib64/libOmxSwVdec.so \
     vendor/yu/garlic/proprietary/lib64/libOmxSwVencMpeg4.so:system/lib64/libOmxSwVencMpeg4.so \
