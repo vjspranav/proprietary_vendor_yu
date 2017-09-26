@@ -44,6 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/tomato/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/yu/tomato/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/yu/tomato/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/yu/tomato/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/yu/tomato/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/yu/tomato/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/yu/tomato/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
