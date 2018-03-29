@@ -388,11 +388,10 @@ PRODUCT_COPY_FILES += \
     vendor/yu/tomato/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
-    vendor/yu/tomato/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/yu/tomato/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/yu/tomato/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/yu/tomato/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
-    vendor/yu/tomato/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
+    vendor/yu/tomato/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
@@ -417,5 +416,5 @@ PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook \
     libaudioalsa \
-    vendor.qti.hardware.fm@1.0
+    vendor.qti.hardware.fm@1.0 \
     rcsimssettings
