@@ -523,7 +523,7 @@ PRODUCT_PACKAGES += \
     qcrilhook
 
 PRODUCT_COPY_FILES += \
-    vendor/yu/garlic/proprietary/bin/gx_fpd:system/bin/gx_fpd \
+    vendor/yu/garlic/proprietary/vendor/bin/gx_fpd:$(TARGET_COPY_OUT_VENDOR)/bin/gx_fpd \
     vendor/yu/garlic/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/yu/garlic/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/yu/garlic/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
