@@ -225,21 +225,15 @@ PRODUCT_PACKAGES += \
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
-    vendor/yu/garlic/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/yu/garlic/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/yu/garlic/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/yu/garlic/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/yu/garlic/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
-    vendor/yu/garlic/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/yu/garlic/proprietary/etc/permissions/btmultisim.xml:system/etc/permissions/btmultisim.xml \
     vendor/yu/garlic/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/yu/garlic/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/yu/garlic/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/yu/garlic/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/yu/garlic/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/yu/garlic/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:system/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/yu/garlic/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/yu/garlic/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/yu/garlic/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/yu/garlic/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/yu/garlic/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
@@ -269,7 +263,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/yu/garlic/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/yu/garlic/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
-    vendor/yu/garlic/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/yu/garlic/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/yu/garlic/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/yu/garlic/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
@@ -277,11 +270,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/yu/garlic/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/yu/garlic/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
-    vendor/yu/garlic/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
-    vendor/yu/garlic/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
-    vendor/yu/garlic/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so \
-    vendor/yu/garlic/proprietary/lib64/libdpmnsrm.so:system/lib64/libdpmnsrm.so \
-    vendor/yu/garlic/proprietary/lib64/libdpmtcm.so:system/lib64/libdpmtcm.so \
     vendor/yu/garlic/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/yu/garlic/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/yu/garlic/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
@@ -394,6 +382,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
     vendor/yu/garlic/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
     vendor/yu/garlic/proprietary/vendor/framework/qti-vzw-ims-internal.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qti-vzw-ims-internal.jar \
+    vendor/yu/garlic/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so \
     vendor/yu/garlic/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.quicinc.cne.api@1.0.so \
     vendor/yu/garlic/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.quicinc.cne.constants@1.0.so \
     vendor/yu/garlic/proprietary/vendor/lib/com.quicinc.cne.constants@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.quicinc.cne.constants@2.0.so \
@@ -451,6 +440,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libcneqmiutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneqmiutils.so \
     vendor/yu/garlic/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
     vendor/yu/garlic/proprietary/vendor/lib/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisp-aba.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libdpmqmihal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmqmihal.so \
     vendor/yu/garlic/proprietary/vendor/lib/libdrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrc.so \
     vendor/yu/garlic/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
     vendor/yu/garlic/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
@@ -726,13 +716,9 @@ PRODUCT_PACKAGES += \
     uceShimService \
     CNEService \
     com.qualcomm.location \
-    dpmserviceapp \
     qcrilmsgtunnel \
     TimeService \
     QtiTelephonyServicelibrary \
-    com.qti.dpmframework \
-    dpm \
-    dpmapi \
     embmslibrary \
     qcnvitems \
     qcrilhook \
