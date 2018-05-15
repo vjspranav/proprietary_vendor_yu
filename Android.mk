@@ -18,16 +18,6 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),garlic)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := vendor.qti.hardware.fingerprint-V1.0-java
-LOCAL_MODULE_OWNER := yu
-LOCAL_SRC_FILES := proprietary/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
 
 ifeq ($(QCPATH),)
 include $(CLEAR_VARS)
