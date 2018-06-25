@@ -72,6 +72,44 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_zsl_preview_bu64244gwz_third_party_app.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_sunny_p7201_zsl_preview_bu64244gwz_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_zsl_video_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_sunny_p7201_zsl_video_bu64244gwz.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_imx258_sunny_p7201_zsl_video_bu64244gwz_third_party_app.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_sunny_p7201_zsl_video_bu64244gwz_third_party_app.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_a3_default_preview.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_a3_default_preview_third_party_app.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_a3_default_preview_third_party_app.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_a3_default_video.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_a3_default_video_third_party_app.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_a3_default_video_third_party_app.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_a3_hfr_120.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_a3_hfr_60.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_a3_hfr_60_third_party_app.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_a3_hfr_60_third_party_app.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_a3_hfr_90.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_common.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_cpp_ds_chromatix.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_cpp_hfr_120.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_cpp_hfr_60.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_cpp_hfr_90.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_cpp_liveshot.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_cpp_liveshot_third_party_app.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_cpp_liveshot_third_party_app.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_cpp_preview.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_cpp_preview_third_party_app.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_cpp_preview_third_party_app.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_cpp_snapshot.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_cpp_snapshot_third_party_app.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_cpp_snapshot_third_party_app.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_cpp_us_chromatix.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_cpp_video.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_cpp_video_third_party_app.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_cpp_video_third_party_app.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_default_video.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_default_video_third_party_app.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_default_video_third_party_app.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_hfr_120.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_hfr_60.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_hfr_60_third_party_app.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_hfr_60_third_party_app.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_hfr_90.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_liveshot.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_postproc.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_preview.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_preview_third_party_app.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_preview_third_party_app.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_snapshot.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_snapshot_third_party_app.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_snapshot_third_party_app.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_zsl_preview.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_zsl_preview_third_party_app.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_zsl_preview_third_party_app.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_zsl_video.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libchromatix_ov8856_zsl_video_third_party_app.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_zsl_video_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_p7201_a3_default_preview.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_a3_default_preview_third_party_app.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_p7201_a3_default_preview_third_party_app.so \
     vendor/yu/garlic/proprietary/vendor/lib/libchromatix_s5k4h8_p7201_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_p7201_a3_default_video.so \
@@ -180,6 +218,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_isp_wb40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_wb40.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_llvd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_llvd.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_optizoom_lib.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_ov8856.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8856.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_p7201_sunny_imx258_otp_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_p7201_sunny_imx258_otp_eeprom.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_p7201_sunwin_ov8856_otp_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_p7201_sunwin_ov8856_otp_eeprom.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_paaf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_paaf_lib.so \
