@@ -577,6 +577,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so \
     vendor/yu/garlic/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.1_vendor.so \
     vendor/yu/garlic/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.voiceprint@1.0.so \
+    vendor/yu/garlic/proprietary/vendor/lib/librmnetctl.so:$(TARGET_COPY_OUT_VENDOR)/lib/librmnetctl.so \
     vendor/yu/garlic/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so \
     vendor/yu/garlic/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so \
     vendor/yu/garlic/proprietary/vendor/lib64/com.quicinc.cne.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.quicinc.cne.api@1.0.so \
@@ -787,6 +788,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/yu/garlic/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/yu/garlic/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
+    vendor/yu/garlic/proprietary/vendor/lib64/librmnetctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librmnetctl.so \
     vendor/yu/garlic/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
