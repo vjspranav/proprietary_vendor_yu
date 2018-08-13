@@ -300,6 +300,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/yu/garlic/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/yu/garlic/proprietary/lib/vendor.qti.hardware.vpp@1.1.so:system/lib/vendor.qti.hardware.vpp@1.1.so \
+    vendor/yu/garlic/proprietary/lib/android.hardware.gnss@1.0.so:system/lib/android.hardware.gnss@1.0.so \
     vendor/yu/garlic/proprietary/lib64/android.hardware.faceunlock@1.0.so:system/lib64/android.hardware.faceunlock@1.0.so \
     vendor/yu/garlic/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/yu/garlic/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
@@ -327,6 +328,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:system/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/yu/garlic/proprietary/lib64/vendor.qti.hardware.vpp@1.1.so:system/lib64/vendor.qti.hardware.vpp@1.1.so \
     vendor/yu/garlic/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
+    vendor/yu/garlic/proprietary/lib64/android.hardware.gnss@1.0.so:system/lib64/android.hardware.gnss@1.0.so \
     vendor/yu/garlic/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/yu/garlic/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/yu/garlic/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
