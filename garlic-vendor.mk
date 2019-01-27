@@ -291,7 +291,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
     vendor/yu/garlic/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/yu/garlic/proprietary/lib/libsd_sdk_display.so:system/lib/libsd_sdk_display.so \
-    vendor/yu/garlic/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
     vendor/yu/garlic/proprietary/lib/libxt_native.so:system/lib/libxt_native.so \
     vendor/yu/garlic/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
     vendor/yu/garlic/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
@@ -321,7 +320,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/yu/garlic/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/yu/garlic/proprietary/lib64/libsd_sdk_display.so:system/lib64/libsd_sdk_display.so \
-    vendor/yu/garlic/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
     vendor/yu/garlic/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
     vendor/yu/garlic/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/yu/garlic/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
@@ -438,17 +436,10 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/com.quicinc.cne.server@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.quicinc.cne.server@2.0.so \
     vendor/yu/garlic/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/yu/garlic/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
-    vendor/yu/garlic/proprietary/vendor/lib/egl/libESXEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libESXEGL_adreno.so \
-    vendor/yu/garlic/proprietary/vendor/lib/egl/libESXGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libESXGLESv1_CM_adreno.so \
-    vendor/yu/garlic/proprietary/vendor/lib/egl/libESXGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libESXGLESv2_adreno.so \
     vendor/yu/garlic/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
     vendor/yu/garlic/proprietary/vendor/lib/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_adreno.so \
     vendor/yu/garlic/proprietary/vendor/lib/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libQTapGLES.so \
-    vendor/yu/garlic/proprietary/vendor/lib/egl/libRBEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libRBEGL_adreno.so \
-    vendor/yu/garlic/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libRBGLESv1_CM_adreno.so \
-    vendor/yu/garlic/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libRBGLESv2_adreno.so \
     vendor/yu/garlic/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
-    vendor/yu/garlic/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/yu/garlic/proprietary/vendor/lib/hw/activity_recognition.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.msm8937.so \
     vendor/yu/garlic/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/yu/garlic/proprietary/vendor/lib/hw/android.hardware.faceunlock@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.faceunlock@1.0-impl.so \
@@ -498,7 +489,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
     vendor/yu/garlic/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
     vendor/yu/garlic/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libc2d30-a5xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a5xx.so \
     vendor/yu/garlic/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
     vendor/yu/garlic/proprietary/vendor/lib/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcne.so \
     vendor/yu/garlic/proprietary/vendor/lib/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneapiclient.so \
@@ -527,7 +517,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblbs_core.so \
     vendor/yu/garlic/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
     vendor/yu/garlic/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qgl.so \
     vendor/yu/garlic/proprietary/vendor/lib/libloc_ds_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_ds_api.so \
     vendor/yu/garlic/proprietary/vendor/lib/libloc_externalDr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_externalDr.so \
     vendor/yu/garlic/proprietary/vendor/lib/liblocationservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocationservice.so \
@@ -537,9 +526,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-disp-apis.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
-    vendor/yu/garlic/proprietary/vendor/lib/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qdcm.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal_proprietary.so \
     vendor/yu/garlic/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
     vendor/yu/garlic/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
@@ -621,17 +607,10 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib64/com.quicinc.cne.server@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.quicinc.cne.server@2.0.so \
     vendor/yu/garlic/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/eglSubDriverAndroid.so \
     vendor/yu/garlic/proprietary/vendor/lib64/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_adreno.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/egl/libESXEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libESXEGL_adreno.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/egl/libESXGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libESXGLESv1_CM_adreno.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/egl/libESXGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libESXGLESv2_adreno.so \
     vendor/yu/garlic/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_adreno.so \
     vendor/yu/garlic/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_adreno.so \
     vendor/yu/garlic/proprietary/vendor/lib64/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libQTapGLES.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/egl/libRBEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libRBEGL_adreno.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/egl/libRBGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libRBGLESv1_CM_adreno.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/egl/libRBGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libRBGLESv2_adreno.so \
     vendor/yu/garlic/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
     vendor/yu/garlic/proprietary/vendor/lib64/hw/activity_recognition.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.msm8937.so \
     vendor/yu/garlic/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/yu/garlic/proprietary/vendor/lib64/hw/android.hardware.faceunlock@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.faceunlock@1.0-impl.so \
@@ -692,7 +671,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccQTI.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libc2d30-a5xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a5xx.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30_bltlib.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcne.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneapiclient.so \
@@ -723,7 +701,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib64/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblbs_core.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-glnext.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qcom.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qgl.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libloc_ds_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_ds_api.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libloc_externalDr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_externalDr.so \
     vendor/yu/garlic/proprietary/vendor/lib64/liblocationservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice.so \
@@ -734,9 +711,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdsprpc.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-color-convertor.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-disp-apis.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-hdcpmgr.so \
-    vendor/yu/garlic/proprietary/vendor/lib64/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal_proprietary.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfgluelayer.so \
